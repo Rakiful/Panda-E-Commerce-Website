@@ -1,4 +1,4 @@
-@media (max-width: 990px){
+@media (max-width: 860px){
     /* header section style */
     .nav-item{
         display: none;
@@ -15,5 +15,28 @@
         background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
         padding: 10px 15px;
         border-radius: 5px;
+    }
+
+    /* Banner section style */
+    .banner-section-contain{
+        width: 80%;
+    }
+    .banner-sec-left-contain h1{
+        font-size: 40px;
+    }
+    .banner-sec-left-contain h2{
+        font-size: 30px;
+
+    }
+    .banner-sec-right-contain img{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 700px){
+    /* Banner section style */
+    .banner-sec-right-contain{
+        display: none;
     }
 }

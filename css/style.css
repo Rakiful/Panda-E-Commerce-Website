@@ -33,3 +33,41 @@ body{
 .menu-icon{
     display: none;
 }
+
+/* Banner section style */
+.banner-section-contain{
+    background-color: #FFECF0;
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    align-items: center;
+}
+.banner-sec-left-contain{
+    padding: 0px 50px;
+}
+.banner-sec-left-contain h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.banner-sec-left-contain h2{
+    font-size: 40px;
+    color: #ffc107;
+    margin-top: 10px;
+}
+.banner-sec-left-contain button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #f8f9fa;
+    border: solid;
+    border-radius: 8px;
+}
+.banner-sec-right-contain{
+    display: flex;
+    justify-content: center;
+}
+.banner-sec-right-contain img{
+    width: 80%;
+}
