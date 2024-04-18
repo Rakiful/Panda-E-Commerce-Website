@@ -93,8 +93,8 @@ body{
     font-size: 30px;
 }
 .category-item img{
-    width: 70px;
-    width: 70px;
+    width: 80px;
+    width: 80px;
 }
 .cicy{
     background-color:#FFC107 ;
@@ -104,4 +104,43 @@ body{
 }
 .cicb{
     background-color: #0DCAF0;
+}
+
+/* Shoes And Backpack item section style here */
+.shop-item-section{
+    width: 70%;
+    margin: 50px auto;
+}
+.shop-item-header{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.shop-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.shop-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+}
+.shop-item img{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.item-descrption{
+    margin-top: 15px;
+    height: 150px;
+}
+.buy-now-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #f8f9fa;
+    border: solid;
+    border-radius: 8px;
 }

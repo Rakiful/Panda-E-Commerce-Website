@@ -26,7 +26,6 @@
     }
     .banner-sec-left-contain h2{
         font-size: 30px;
-
     }
     .banner-sec-right-contain img{
         width: 100%;
@@ -40,6 +39,13 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    /* Shoes And Backpack item section style here */
+    .shop-item-section{
+        width: 80%;
+    }
+    .shop-items{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 
@@ -49,8 +55,32 @@
         display: none;
     }
 
-     /* Category section style */
+    /* Category section style */
     .category-items{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px){
+    /* header section style */
+    .navbar-contain{
+        width: 90%;
+    }
+
+    /* Banner section style */
+    .banner-section-contain{
+        width: 90%;
+    }
+
+    /* Category section style */
+    .category-section{
+        width: 90%;
+    }
+    /* Shoes And Backpack item section style here */
+    .shop-item-section{
+        width: 90%;
+    }
+    .shop-items{
         grid-template-columns: 1fr;
     }
 }
