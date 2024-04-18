@@ -46,6 +46,11 @@
     .shop-items{
         grid-template-columns: 1fr 1fr;
     }
+
+    /* contact section style here */
+    .contact-section{
+        width: 80%;
+    }
 }
 
 
@@ -82,5 +87,10 @@
     }
     .shop-items{
         grid-template-columns: 1fr;
+    }
+    
+    /* contact section style here */
+    .contact-section{
+        width: 90%;
     }
 }
