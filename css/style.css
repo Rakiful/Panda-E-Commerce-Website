@@ -71,3 +71,37 @@ body{
 .banner-sec-right-contain img{
     width: 80%;
 }
+
+/* Category section style */
+.category-section{
+    width: 70%;
+    margin: 50px auto;
+}
+.category-items{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.category-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white
+}
+.category-item h1{
+    font-size: 30px;
+}
+.category-item img{
+    width: 70px;
+    width: 70px;
+}
+.cicy{
+    background-color:#FFC107 ;
+}
+.cicg{
+    background-color: #198754;
+}
+.cicb{
+    background-color: #0DCAF0;
+}

@@ -1,4 +1,4 @@
-@media (max-width: 860px){
+@media (max-width: 990px){
     /* header section style */
     .nav-item{
         display: none;
@@ -31,6 +31,15 @@
     .banner-sec-right-contain img{
         width: 100%;
     }
+
+    /* Category section style */
+    .category-section{
+        width: 80%;
+    }
+    .category-items{
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
 
 
@@ -38,5 +47,10 @@
     /* Banner section style */
     .banner-sec-right-contain{
         display: none;
+    }
+
+     /* Category section style */
+    .category-items{
+        grid-template-columns: 1fr;
     }
 }
